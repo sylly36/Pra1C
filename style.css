@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: turquoise;
+}
+
+header{
+    padding: 20px;
+}
+
+header img{
+    width: 10%;
+    height: 10%;
+}
+
+/*Grid vakken*/
+.vakkenPanel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px 50px 0 50px;
+}
+
+.vak{
+    display: flex;
+    border: black 1px solid;
+    background-color: #37c4b6;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.vak p{
+    font-size: small;
+    padding: 10px;
+}
+
+.vak img{
+    padding: 10px;
+    height: 150px;
+    width: 200px;
+}
