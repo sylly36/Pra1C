@@ -15,14 +15,18 @@ header img{
     width: 10%;
     height: 10%;
 }
+main{
+    padding: 20px 50px 0 50px;
+    padding-bottom: 50px;
+}
 
 /*Grid vakken*/
 .vakkenPanel{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
-    padding: 20px 50px 0 50px;
+    grid-gap: 10px; 
+    padding-bottom: 50px;
 }
 
 .vak{
@@ -31,7 +35,7 @@ header img{
     background-color: #37c4b6;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 50px;
+
 }
 
 .vak p{
@@ -43,4 +47,45 @@ header img{
     padding: 10px;
     height: 150px;
     width: 200px;
+}
+
+.blokInfo{
+    border: black 1px solid;
+    border-radius: 25px;
+    width: 750px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.versnellenInfo{
+    border: black 1px solid;
+    border-radius: 25px;
+    width: 750px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.blokken{
+    display: flex;
+    gap: 100px;
+}
+
+.blokken img{
+    width: 1000px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.rooster{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.rooster img{
+    width: 1000px;
 }
