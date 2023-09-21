@@ -70,6 +70,10 @@ main{
     height: 150px;
     width: 200px;
 }
+
+.docent p{
+    margin: 0 20px 20px 20px;
+}
 .blokInfo{
     border: black 1px solid;
     border-radius: 25px;
